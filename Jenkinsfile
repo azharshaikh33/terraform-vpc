@@ -6,7 +6,7 @@ pipeline {
         }
 
     options {
-        Ansicolor('xterm')
+        ansiColor('xterm')
     }
     stages {
         stage('terraform init') {
